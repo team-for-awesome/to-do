@@ -1,4 +1,9 @@
 <html>
+<style>
+.suggestion {
+  font-size: 30px;  
+}
+</style>
 <h1>To-Do</h1>
 <p>Bored? This is a small script to find something constructive for you to do. Just refresh the page for more.</p>
 <script type="text/javascript">
@@ -13,7 +18,7 @@ todo[4] = "Read a book.";
 index = Math.floor(Math.random() * todo.length);
 
 //display the todo item
-document.write("<p>\n");
+document.write("<p class="suggestion">\n");
 document.write(todo[index] + "\n");
 document.write("</p>\n");
 </script>
